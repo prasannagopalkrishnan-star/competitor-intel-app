@@ -1,4 +1,4 @@
-import Anthropic from 'anthropic';
+import Anthropic from '@anthropic-ai/sdk';
 import { SignalType, Sentiment } from './types';
 
 const client = new Anthropic({
